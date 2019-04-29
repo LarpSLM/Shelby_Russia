@@ -1,0 +1,245 @@
+.background_video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -2;
+    background-color: #000000
+}
+
+.background_video video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.page {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-family: Nobel,Helvetica,Arial,Roboto,sans-serif;
+    padding: 10px 15px;
+    float: right;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    display: block;
+    height: 75px;
+    width: 100px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+}
+
+nav {
+    height: 600px;
+    width: 457px;
+    padding-top: 50px;
+}
+.menu {
+    width: 285px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #e3e4e6;
+    font-family: Nobel Light,Helvetica,Arial,Roboto,sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .5px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding-bottom: 2px;
+}
+
+
+nav a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 0;
+}
+
+
+
+nav h1,
+main h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    line-height: 2.75rem;
+    color: white;
+    font-family: Nobel,Helvetica,Arial,Roboto,sans-serif;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: #e3e4e6;
+    font-family: Nobel, Helvetica, Arial, Roboto, sans-serif;
+}
+
+/*-----Model HTML----*/
+
+.navbar .logo_bar {
+    display: block;
+    height: 50px;
+    width: 100px;
+    background: url("../img/logo.png") no-repeat center;
+    background-size: contain;
+    float: left;
+}
+
+body {
+    background: url("../img/body_bg.jpg") center top;
+    background-size: cover;
+}
+
+.navbar {
+    clear: both;
+    height: 70px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    color: #e3e4e6;
+    font-family: Nobel Light,Helvetica,Arial,Roboto,sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .5px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.gt500_2008 .img {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background: url("../img/gt-500_2008.png") no-repeat center;
+    background-size: contain;
+}
+
+.gt350_2011 .img {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background: url("../img/gt-350_2011.png") no-repeat center;
+    background-size: contain;
+}
+
+.gt500_2013 .img {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background: url("../img/gt-500_2013.png") no-repeat center;
+    background-size: contain;
+}
+
+.gt350_2018 .img {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background: url("../img/gt-350_2018.png") no-repeat center;
+    background-size: contain;
+}
+
+.gt350_2011 .description,
+.gt500_2008 .description,
+.gt500_2013 .description,
+.gt350_2018 .description {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    vertical-align: top;
+}
+
+.gt350_2011,
+.gt500_2008,
+.gt500_2013,
+.gt350_2018 {
+    border-bottom: 2px solid white;
+}
+
+.gt350_2011 ul,
+.gt500_2008 ul,
+.gt500_2013 ul,
+.gt350_2018 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.gt350_2011 ul li,
+.gt500_2008 ul li,
+.gt500_2013 ul li,
+.gt350_2018 ul li {
+    list-style-type: none;
+    color: white;
+    font-family: Nobel Light,Helvetica,Arial,Roboto,sans-serif;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.gt350_2011 .video_model,
+.gt500_2008 .video_model,
+.gt500_2013 .video_model,
+.gt350_2018 .video_model {
+    display: inline-block;
+    height: 250px;
+    width: 40%;
+}
+
+.video_model video {
+    height: 250px;
+    width: 100%;
+}
+
+.fixfooter {
+    height: 50px;
+}
+
+/*---Contact HTML---*/
+
+form {
+    color: white;
+    font-family: Nobel, Helvetica, Arial, Roboto, sans-serif;
+    font-size: 26px;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+textarea {
+    display: block;
+}
+
+.submit {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
